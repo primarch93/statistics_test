@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUG TRACKING SYSTEM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h1>Bug tracking system</h1>
+            <img src="./image/logo_team.svg" alt="logo">
+            <ul>
+                <li><a href="#statistics">Statistics</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="statistics">
+        <div class="container">
+            <h2>Statistics of errors and checks found</h2>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3 id="checks-passed">0</h3>
+                    <p>checks-passed</p>
+                </div>
+                <div class="stat-item">
+                    <h3 id="checks-failed">0</h3>
+                    <p>checks-failed</p>
+                </div>
+            </div>
+            <canvas id="myChart" width="400" height="200"></canvas>
+        </div>
+    </main>
+
+    <section id="team" class="team-section">
+        <h2 class="team_name">Our team</h2>
+        <div class="team-member">
+            <img src="./image/team/Yehor.jpg" alt="Yehor Kravchenko">
+            <h3>Yehor Kravchenko</h3>
+            <p>Team Lead</p>
+        </div>
+        <div class="team-member">
+            <img src="./image/team/Mary.JPG" alt="Maryna Putilina">
+            <h3>Maryna Putilina</h3>
+            <p>Scrum Master</p>
+        </div>
+        <div class="team-member">
+            <img src="./image/team/Ihor.jpg" alt="Ihor Nikitenkov">
+            <h3>Ihor Nikitenkov</h3>
+            <p>QA Engineer</p>
+        </div>
+        <div class="team-member">
+            <img src="./image/team/viktoria.jpg" alt="Viktoriia Babohlo">
+            <h3>Viktoria Babohlo</h3>
+            <p>QA Engineer</p>
+        </div>
+        <div class="team-member">
+            <img src="./image/team/kuzmenko.jpg" alt="Viktoria Kuzmenko">
+            <h3>Viktoria Kuzmenko</h3>
+            <p>QA Engineer</p>
+        </div>
+        <div class="team-member">
+            <img src="./image/team/Artem.jpg" alt="Artem Lutskyi">
+            <h3>Artem Lutskyi</h3>
+            <p>QA Engineer</p>
+        </div>
+        <div class="team-member">
+            <img src="./image/team/Olek.jpg" alt="Oleksandr Yaromych">
+            <h3>Oleksandr Yaromych</h3>
+            <p>QA Engineer</p>
+        </div>
+        <div class="team-member">
+            <img src="./image/team/Kristina.jpg" alt="Khrystyna Chaikovska">
+            <h3>Khrystyna Chaikovska</h3>
+            <p>QA Engineer</p>
+        </div>
+        <div class="team-member">
+            <img src="./image/team/Mihajlo.jpeg" alt="Mihajlo Gorbatuk">
+            <h3>Mihajlo Gorbatuk</h3>
+            <p>QA Engineer</p>
+        </div>
+    </section>
+
+    <section id="about-us" class="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to Team Project 101! We are a group of dedicated QA engineering students passionate about ensuring software quality and reliability. Our team works diligently to detect and fix bugs, aiming to deliver seamless and secure software solutions. By utilizing the latest tools and methodologies in quality assurance, we strive to meet and exceed project expectations.</p>
+    </section>
+
+    <footer>
+        <img class="img_footer" src="./image/logo_team.svg" alt="logo">
+        <p>&copy; 2024</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/static.js"></script>
+</body>
+</html>
