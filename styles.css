@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: url('./image/stat.jpg') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
     display: flex;
